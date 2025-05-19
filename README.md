@@ -35,11 +35,20 @@ This project is a comprehensive automated billing system designed to streamline 
    git clone https://github.com/shanmukhachelluri55/Payammu.git
 
 
-2.cd backend
+cd Payammu/backend
 npm install
 
-3.cd ../frontend
-npm install
+nodemon server.js
 
-4. npm run dev
+
+2. Frontend Setup
+cd ../frontend
+npm install
+npm run dev
+
+
+3.Database 
+
+run the Queries from above attached file on PgAdmin 
+
 
