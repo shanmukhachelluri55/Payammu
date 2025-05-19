@@ -1,0 +1,66 @@
+/* General layout */
+.container-main {
+  /* background-color: #f8f9faec; */
+  margin-top: 30px;
+}
+
+/* Outer border for the chart container */
+.outerborder {
+  margin: 10px auto;
+  max-width: 1200px;
+  border: 2px solid #d2d2d2;
+  border-radius: 15px;
+  background-color: #f6f6f6;
+}
+
+/* Chart container styling */
+.chart-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title for the chart */
+h4 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Toggle button container */
+.toggle-container {
+  display: flex; /* Use flexbox for horizontal alignment */
+  justify-content: flex-end; /* Align buttons to the right */
+  gap: 10px; /* Space between the buttons */
+  margin-bottom: 10px; /* Space between toggle and chart */
+}
+
+/* Toggle button styling */
+.toggle-button {
+  /* background-color: #f0f0f0; */
+  color: #333;
+  border: 2px solid #d2d2d2;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Highlight active button */
+.toggle-button.active {
+  background-color: #007bff; /* Blue color for the active button */
+  color: white;
+  border: 2px solid #007bff; /* Matching blue border */
+}
+
+/* Hover effect for the button */
+.toggle-button:hover {
+  background-color: #e0e0e0; /* Light gray hover effect */
+}
