@@ -27,7 +27,7 @@ This project is a comprehensive automated billing system designed to streamline 
 - Frontend: ReactJS (or specify your frontend tech)
 - Backend: (Specify backend tech, e.g., Node.js, Express)
 - Payment Gateway: Razorpay
-- Database: (Specify your database, e.g., MongoDB, MySQL)
+- Database: (Specify your database, e.g., PostgreSQL)
 
 ## Installation & Setup
 1. Clone the repository:
