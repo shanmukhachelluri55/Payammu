@@ -24,7 +24,7 @@ This project is a comprehensive automated billing system designed to streamline 
   Encourages repeat purchases and increases customer retention by 15% through a rewards-based loyalty program.
 
 ## Technologies Used
-- Frontend: ReactJS (or specify your frontend tech)
+- Frontend: ReactJS (or React.js)
 - Backend: (Specify backend tech, e.g., Node.js, Express)
 - Payment Gateway: Razorpay
 - Database: (Specify your database, e.g., PostgreSQL)
